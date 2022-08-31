@@ -1,13 +1,11 @@
-import { useState, useRef } from 'react';
-import { Header, Main, Footer } from './contect'
 import './App.scss';
+import LayoutMe from './layout/layout';
+import 'antd/dist/antd.css'
+
+
 function App() {
     return (
-      <>
-        <Header />
-        <Main />
-        <Footer />
-      </>
+      <LayoutMe />
     )
 }
 

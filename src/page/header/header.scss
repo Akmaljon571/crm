@@ -1,1 +1,53 @@
-@import "../../utils/scss/var.scss"
+@import "../../utils/scss/var.scss";
+
+.trigger {
+  color: #fff;
+  margin-left: -30px;
+}
+
+.Sabinas_logo {
+  padding-top: 20px;
+  margin-left: 10px;
+  display: flex;
+align-items: center;
+gap: 5px;
+margin-bottom: 30px;
+cursor: pointer;
+}
+
+.Sabinas_logo span {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+  color: yellow;
+  max-width: 130px;
+}
+
+.none{
+    display: none;
+    transition: all 5s;
+}
+
+.ant-menu-root{
+    background-color:blue !important;
+}
+
+.header{background-color: #fff !important;}
+
+.ant-menu-item-selected{
+    background: #01265F !important;
+    border-top-right-radius:  25px;
+    border-bottom-right-radius: 25px;
+    margin-right: 5px;
+    max-width: 95%;
+}
+
+.ant-menu-item{
+    border-top-right-radius:  25px;
+    border-bottom-right-radius: 25px;
+    margin-right: 5px;
+    max-width: 95%;
+
+}

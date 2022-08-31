@@ -1,11 +1,13 @@
+import useStart from '../../hooks/useStart'
 import './header.scss'
 
-function Header() {
+function HeaderMe() {
+    const {head} = useStart()
     return (
         <header className="header">
-            header
+            <h1>{head}</h1>
         </header>
     )
 }
 
-export default Header
+export default HeaderMe

@@ -5,7 +5,10 @@ export const State = createContext()
 
 export const StatePriveder = ({ children }) => {
 
-    const data = {}
+    const [head, setHead] = useState('Xisobod');
+
+
+    const data = {head, setHead}
 
     return <State.Provider value={data}>{ children }</State.Provider>
 }

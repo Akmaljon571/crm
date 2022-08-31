@@ -1,6 +1,6 @@
-import 'main.scss'
+import './main.scss'
 
-function Main() {
+function MainMe() {
     return (
         <main> 
            Main
@@ -8,4 +8,4 @@ function Main() {
     )
 }
 
-export default Main
+export default MainMe
