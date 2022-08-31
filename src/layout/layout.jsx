@@ -83,14 +83,14 @@ const LayoutMe = () => {
         />
       </Sider>
       <Layout className="site-layout">
-        <Header
+        {/* <Header
           className="site-layout-background header"
           style={{
             padding: 0,
           }}
-        >
+        > */}
           <HeaderMe />
-        </Header>
+        {/* </Header> */}
         <Content
           className="site-layout-background"
           style={{

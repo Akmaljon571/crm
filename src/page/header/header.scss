@@ -9,45 +9,103 @@
   padding-top: 20px;
   margin-left: 10px;
   display: flex;
-align-items: center;
-gap: 5px;
-margin-bottom: 30px;
-cursor: pointer;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .Sabinas_logo span {
-    font-family: Inter;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 25px;
-    text-align: left;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
   color: yellow;
   max-width: 130px;
 }
 
-.none{
-    display: none;
-    transition: all 5s;
+.none {
+  display: none;
+  transition: all 5s;
 }
 
-.ant-menu-root{
-    background-color:blue !important;
+.ant-menu-root {
+  background-color: blue !important;
 }
 
-.header{background-color: #fff !important;}
-
-.ant-menu-item-selected{
-    background: #01265F !important;
-    border-top-right-radius:  25px;
-    border-bottom-right-radius: 25px;
-    margin-right: 5px;
-    max-width: 95%;
+.header {
+  background-color: #fff !important;
+  padding: 5px;
+  padding-left: 50px;
 }
 
-.ant-menu-item{
-    border-top-right-radius:  25px;
-    border-bottom-right-radius: 25px;
-    margin-right: 5px;
-    max-width: 95%;
+.ant-menu-item-selected {
+  background: #01265f !important;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-right: 5px;
+  max-width: 95%;
+}
+
+.ant-menu-item {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-right: 5px;
+  max-width: 95%;
+}
+
+.header_father {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff !important;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 60px;
+
+  .header_h11 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #0061f7;
+    margin: 0;
+  }
+
+  .header_data {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #0061f7;
+  }
+
+  .rigth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  .header-til{
+    color: #000000;
+    background-color:transparent ;
+    border: none;
+  }
+
+  .sun{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C4C4C4;
+    padding: 9px;
+  }
 
 }
